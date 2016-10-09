@@ -1,0 +1,56 @@
+
+body {
+  font-family: 'Quattrocento', serif;
+}
+
+#header {
+  text-align: center;
+  background-color: #FF6347;
+  color: white;
+  text-transform: uppercase;
+}
+
+#order-form h3,
+#order-form h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#blanks {
+  margin-top: 5%;
+}
+
+#customer-name,
+#pizza-size {
+  max-width: 50%;
+  margin-right: 2%;
+}
+
+.btn {
+  margin: 5% 0 5% 25%;
+  background-color: #FF6347;
+  color: white;
+}
+
+.my-alert {
+  background-color: #FF6347;
+  color: white;
+  max-width: 80%;
+  margin-bottom: 2%;
+  padding: 3% 2% 1% 6%;
+  font-size: .95em;
+  border-radius: 5px;
+}
+
+#size-alert,
+#name-alert {
+  display: none;
+}
+
+#output {
+  display: none;
+}
+
+#total {
+  text-decoration: underline;
+}
